@@ -5,11 +5,13 @@ import { AppComponent } from "./app.component";
 import { InputsModule } from "@progress/kendo-angular-inputs";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
-import { FormsModule } from "@angular/forms"; //<<<< import it here
+import { FormsModule } from "@angular/forms";
+import { ButtonsModule } from '@progress/kendo-angular-buttons';
+ //<<<< import it here
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, InputsModule, BrowserAnimationsModule, FormsModule],
+  imports: [BrowserModule, InputsModule, BrowserAnimationsModule, FormsModule, ButtonsModule],
   providers: [],
   bootstrap: [AppComponent]
 })

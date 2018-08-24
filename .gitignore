@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/GHQ_Design_System_CodeSamples/v15
+/.vs/ProjectSettings.json
+/.vs/slnx.sqlite

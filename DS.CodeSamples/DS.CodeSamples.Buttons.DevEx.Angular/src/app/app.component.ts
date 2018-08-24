@@ -7,9 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Buttons';
-  valueHorizontal = 5;
-  valueVertical = 5;
-  min = 0;
-  max = 15;
-  smallStep = 1;
 }

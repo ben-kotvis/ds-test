@@ -1,5 +1,5 @@
 {
-  "name": "sliders",
+  "name": "slider",
   "version": "0.1.0",
   "dependencies": {
     "@progress/kendo-inputs-react-wrapper": "^2018.2.719",
@@ -11,7 +11,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build"
   }
 }

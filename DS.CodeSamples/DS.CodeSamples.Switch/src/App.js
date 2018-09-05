@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./App.scss";
 
 import "@progress/kendo-ui";
 // import { NumericTextBox, Input, Switch } from '@progress/kendo-react-inputs';

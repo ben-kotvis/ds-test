@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./App.scss";
 
 import "@progress/kendo-ui";
 import { Slider } from "@progress/kendo-inputs-react-wrapper";

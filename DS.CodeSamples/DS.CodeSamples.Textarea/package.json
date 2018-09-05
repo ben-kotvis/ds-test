@@ -1,7 +1,6 @@
 {
   "name": "textarea",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "ajv": "^6.5.3",
     "bm-malt-css": "^1.0.2",

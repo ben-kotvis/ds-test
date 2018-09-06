@@ -18,6 +18,13 @@ class App extends React.Component {
           <label className="e-float-text e-label-top">Enter </label>
           <span className="e-input-group-icon e-input-popup-date" />
         </div>
+        <h4>textarea</h4>
+        <textarea className="e-input" placeholder="Address" />
+        <div className="e-float-input">
+          <textarea required />
+          <span className="e-float-line" />
+          <label className="e-float-text"> Address</label>
+        </div>
       </div>
     );
   }

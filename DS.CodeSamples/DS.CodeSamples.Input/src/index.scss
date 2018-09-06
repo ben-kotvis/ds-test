@@ -1,3 +1,13 @@
-@import "../node_modules/bm-malt-css/preflight";
+// @import "../node_modules/bm-malt-css/preflight";
 // @import "../node_modules/bm-malt-css/kendo-themed";
-@import "../node_modules/bm-malt-css/utils";
+@import "../node_modules/@syncfusion/ej2-react-inputs/styles/material.css";
+
+// @import "../node_modules/bm-malt-css/utils";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2rem;
+}
+.page {
+  max-width: 444px;
+}

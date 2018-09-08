@@ -1,6 +1,11 @@
 // @import "../node_modules/bm-malt-css/preflight";
 // @import "../node_modules/bm-malt-css/kendo-themed";
-@import "../node_modules/@syncfusion/ej2-react-inputs/styles/input/material";
+
+$primary: pink;
+$accent: pink;
+// @import "../node_modules/@syncfusion/ej2-react-inputs/styles/material.scss";
+
+@import "../node_modules/@syncfusion/ej2-inputs/styles/input/material.scss";
 
 // @import "../node_modules/bm-malt-css/utils";
 

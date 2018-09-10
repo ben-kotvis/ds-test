@@ -25,7 +25,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="m-8">
+      <div className="m-8" style={{ maxWidth: 444 + "px" }}>
         <h1>DropDown</h1>
         <br />
         <br />

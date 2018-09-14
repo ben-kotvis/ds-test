@@ -5,7 +5,7 @@
     "@syncfusion/ej2-buttons": "^16.2.50",
     "@syncfusion/ej2-react-inputs": "^16.2.53",
     "ajv": "^6.5.3",
-    "bm-malt-css": "^1.0.2",
+    "bm-malt-css": "^1.0.4",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-scripts": "1.1.5"

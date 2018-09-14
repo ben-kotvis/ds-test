@@ -1,18 +1,7 @@
-// @import "../node_modules/bm-malt-css/preflight";
-// @import "../node_modules/bm-malt-css/kendo-themed";
+@import "../node_modules/bm-malt-css/syncfusion-theme";
 
-$primary: pink;
-$accent: pink;
-// @import "../node_modules/@syncfusion/ej2-react-inputs/styles/material.scss";
-
-@import "../node_modules/@syncfusion/ej2-inputs/styles/input/material.scss";
-
-// @import "../node_modules/bm-malt-css/utils";
-
-body {
+.App {
+  max-width: 555px;
+  margin: auto;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 2rem;
-}
-.page {
-  max-width: 444px;
 }

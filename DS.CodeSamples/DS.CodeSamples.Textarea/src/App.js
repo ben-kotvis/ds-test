@@ -4,8 +4,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1 className="App-title">TextArea</h1>
-        <textarea className="k-textarea" />
+        <h1>Textarea</h1>
+        <textarea className="e-input" placeholder="Address" />
+        <div className="e-float-input">
+          <textarea required />
+          <span className="e-float-line" />
+          <label className="e-float-text"> Address</label>
+        </div>
       </div>
     );
   }

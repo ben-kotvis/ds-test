@@ -3,7 +3,8 @@ import * as React from "react";
 class App extends React.Component {
   render() {
     return (
-      <div className="page">
+      <div className="App">
+        <h1>Input</h1>
         <h4> FloatLabelType as Auto </h4>
         <div className="e-float-input e-input-group">
           <input type="text" required />
@@ -17,13 +18,6 @@ class App extends React.Component {
           <span className="e-float-line" />
           <label className="e-float-text e-label-top">Enter </label>
           <span className="e-input-group-icon e-input-popup-date" />
-        </div>
-        <h4>textarea</h4>
-        <textarea className="e-input" placeholder="Address" />
-        <div className="e-float-input">
-          <textarea required />
-          <span className="e-float-line" />
-          <label className="e-float-text"> Address</label>
         </div>
       </div>
     );

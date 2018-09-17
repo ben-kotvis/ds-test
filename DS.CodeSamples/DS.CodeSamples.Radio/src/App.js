@@ -4,29 +4,71 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <form className="k-form">
-          <div className="k-form-field">
-            <h1>RadioButtons</h1>
-            <br />
-            <br />
-            <input className="k-radio" id="radio1" name="radios" type="radio" />
-            <label className="k-radio-label" htmlFor="radio1">
-              RadioButton 1
-            </label>
-            <br />
-            <br />
-            <input className="k-radio" id="radio2" name="radios" type="radio" />
-            <label className="k-radio-label" htmlFor="radio2">
-              RadioButton 2
-            </label>
-            <br />
-            <br />
-            <input className="k-radio" id="radio3" name="radios" type="radio" />
-            <label className="k-radio-label" htmlFor="radio3">
-              RadioButton 3
-            </label>
+        <div className="radio-control">
+          <h4 className="row">Select a payment method</h4>
+          <div className="row">
+            <div className="e-radio-wrapper">
+              <input
+                id="radio1"
+                type="radio"
+                class="e-control e-radio"
+                name="payment"
+                value="credit/debit"
+              />
+              <label for="radio1">
+                <span class="e-ripple-container" data-ripple="true" />
+                <span class="e-label">Credit/Debit Card</span>
+              </label>
+            </div>
           </div>
-        </form>
+          <div className="row">
+            <div className="e-radio-wrapper">
+              <input
+                id="radio2"
+                type="radio"
+                class="e-control e-radio"
+                name="payment"
+                value="netbanking"
+              />
+              <label for="radio2">
+                <span class="e-ripple-container e-ripple" data-ripple="true">
+                  <div class="e-ripple-element" />
+                </span>
+                <span class="e-label">Net Banking</span>
+              </label>
+            </div>
+          </div>
+          <div className="row">
+            <div className="e-radio-wrapper">
+              <input
+                id="radio3"
+                type="radio"
+                class="e-control e-radio"
+                name="payment"
+                value="cashondelivery"
+              />
+              <label for="radio3">
+                <span class="e-ripple-container" data-ripple="true" />
+                <span class="e-label">Cash on Delivery</span>
+              </label>
+            </div>
+          </div>
+          <div className="row">
+            <div className="e-radio-wrapper">
+              <input
+                id="radio4"
+                type="radio"
+                class="e-control e-radio"
+                name="payment"
+                value="others"
+              />
+              <label for="radio4">
+                <span class="e-ripple-container" data-ripple="true" />
+                <span class="e-label">Other Wallets</span>
+              </label>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

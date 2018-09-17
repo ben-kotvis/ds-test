@@ -7,7 +7,10 @@
     "bm-malt-css": "^1.0.4",
     "react": "16.4.2",
     "react-dom": "16.4.2",
-    "react-scripts": "1.0.10"
+    "react-scripts": "1.0.10",
+    "@syncfusion/ej2-base": "^16.2.50",
+    "@syncfusion/ej2-buttons": "^16.2.50",
+    "@syncfusion/ej2-react-dropdowns": "^16.2.50"
   },
   "scripts": {
     "build-css": "node-sass-chokidar --include-path ./node_modules src/ -o src/",

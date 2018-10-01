@@ -4,7 +4,7 @@
   "dependencies": {
     "ajv": "^6.5.3",
     "react": "16.4.2",
-    "malt-css":"^1.0",
+    "bm-malt-css":"^1.0",
     "react-dom": "16.4.2",
     "react-scripts": "1.0.10",
     "@syncfusion/ej2-buttons": "^16.2.50",
